@@ -1,10 +1,3 @@
----
-author: hasp
-date: 2021-10-30
-version: 0.1-draft
-info: do not use yaml header - not working with reveal.js
----
-
 # External Markdown
 
 ## `<insert date here>`
