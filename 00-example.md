@@ -28,4 +28,4 @@ Math Example:
 
 ### Local
 
-`![LiTec-Logo](./_img/LiTec-Logo.jpg)`
+![LiTec-Logo](./_img/LiTec-Logo.jpg)
