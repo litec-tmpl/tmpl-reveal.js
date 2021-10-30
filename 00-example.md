@@ -19,7 +19,7 @@ Note: just a short note
 
 ---
 
-## Up You Go!
+## Up You Go
 
 Math Example:
 
@@ -35,4 +35,4 @@ Math Example:
 
 ### Local
 
-![LiTec-Logo](./_img/LiTec-Logo.jpg)
+`![LiTec-Logo](./_img/LiTec-Logo.jpg)`
