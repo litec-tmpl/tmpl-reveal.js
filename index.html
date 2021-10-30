@@ -11,10 +11,11 @@
 
     <link rel="stylesheet" href="reveal.js/dist/reset.css" />
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <!-- themes: https://revealjs.com/themes/ -->
+
+    <!-- For a list of themes see https://revealjs.com/themes/ -->
     <link rel="stylesheet" href="reveal.js/dist/theme/league.css" id="theme" />
 
-    <!-- Theme used for syntax highlighted code -->
+    <!-- theme used for syntax highlighted code -->
     <link
       rel="stylesheet"
       href="reveal.js/plugin/highlight/monokai.css"
@@ -25,10 +26,10 @@
     <div class="reveal">
         <div class="slides">
         
-        <section 
+        <section
             data-markdown="00-example.md"
-            data-separator="-----"
-            data-separator-vertical="---"
+            data-separator="^\r?\n-----\r?\n$"
+            data-separator-vertical="^\r?\n\r?\n---\r?\n$"
             data-separator-notes="^Note:"
             data-charset="iso-8859-15">
         </section>
@@ -52,8 +53,10 @@
             ---
 
             ### Code
+
+            with highlighting
             
-            ```java
+            ```java [1-2|3|4]
             public class foo {
               private int baa;
               public foo() {
@@ -94,7 +97,7 @@
     <script src="reveal.js/dist/reveal.js"></script>
     <script src="reveal.js/plugin/notes/notes.js"></script>
     <script src="reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="plugin/math/math.js"></script>
+    <script src="reveal.js/plugin/math/math.js"></script>
     <script src="reveal.js/plugin/highlight/highlight.js"></script>
     <script src="reveal.js/plugin/zoom/zoom.js"></script>
     <script>
@@ -103,6 +106,7 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        slideNumber: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealMath],
