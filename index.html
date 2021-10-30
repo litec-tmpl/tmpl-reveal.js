@@ -11,7 +11,8 @@
 
     <link rel="stylesheet" href="reveal.js/dist/reset.css" />
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="reveal.js/dist/theme/serif.css" id="theme" />
+    <!-- themes: https://revealjs.com/themes/ -->
+    <link rel="stylesheet" href="reveal.js/dist/theme/league.css" id="theme" />
 
     <!-- Theme used for syntax highlighted code -->
     <link
@@ -22,22 +23,35 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides">
-        <section
+        <div class="slides">
+        
+        <section 
+            data-markdown="00-example.md"
+            data-separator="-----"
+            data-separator-vertical="---"
+            data-separator-notes="^Note:"
+            data-charset="iso-8859-15">
+        </section>
+
+        <section 
           data-markdown
           data-separator="-----"
           data-separator-vertical="---"
         >
           <textarea data-template>
-            # Title Page
+            # Inline Markdown
 
-            ### Date
+            ### `<insert date here>`
 
             -----
             
             Vertical slides are separated by `- - -`
+
+            Look below for a code example
             
             ---
+
+            ### Code
             
             ```java
             public class foo {
@@ -50,30 +64,27 @@
   
             -----
             
-            # title
-            ## skills
+            ## Lists
+
+            ### Unordered
+            
             * one
             * two
             * three
-            
-            ## heading
-            8. three
+
+            ---
+
+            ### Ordered
+
             1. one
             1. two
-         
-            
-            -----
-            
-
-            # Questions
-
+            1. three
+ 
             -----
 
-            ## made with
+            ## Link Example
 
-            #### [reveal.js](https://github.com/hakimel/reveal.js)
-
-            #### [excalidraw](https://github.com/excalidraw/excalidraw)
+            made with [reveal.js](https://github.com/hakimel/reveal.js)
 
           </textarea>
         </section>
@@ -83,6 +94,7 @@
     <script src="reveal.js/dist/reveal.js"></script>
     <script src="reveal.js/plugin/notes/notes.js"></script>
     <script src="reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="plugin/math/math.js"></script>
     <script src="reveal.js/plugin/highlight/highlight.js"></script>
     <script src="reveal.js/plugin/zoom/zoom.js"></script>
     <script>
@@ -93,7 +105,7 @@
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealMath],
       });
     </script>
   </body>
