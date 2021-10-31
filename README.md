@@ -7,7 +7,7 @@ See [how to host reveal.js on github-pages](https://martinomensio.medium.com/how
 
 ## Demo
 
-have a look a the according demo github pages for this repo: <https://litec-lectures.github.io/reveal.js-template/>
+Have a look at the demo github pages of this template repo: <https://litec-lectures.github.io/reveal.js-template/>.
 
 ## Setup
 
