@@ -26,7 +26,7 @@
 
 - Slide overview: `Esc`
 - Zoom:
-  - Windows: `Alt + Click`
+  - Windows: `Alt+Click`
   - Linux: `Ctrl+Click`
 - Speaker view: `S`
 
@@ -79,7 +79,7 @@ This text is not visible in presentation mode!
   - lists
   - tables
   - links and images
-  - **bold** *italic* ~~~striketrough~~~
+  - **bold** *italic* ~~striketrough~~
   - See for example [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - ...and below
 
