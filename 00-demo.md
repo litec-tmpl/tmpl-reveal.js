@@ -70,6 +70,19 @@ Note:
 
 This text is not visible in presentation mode!
 
+---
+
+<!-- .slide: data-background-gradient="linear-gradient(to bottom, #ff1493, #ffb6c1)" data-transition="zoom" -->
+# PINK BACKGROUND WITH ZOOM IN! WHOO!
+
+- For slide transitions (like zoom here) see [reveal.js transition](https://revealjs.com/transitions/).
+- Different Backgrounds are possible
+  - single colors (`data-background`)
+  - gradients (shown here) (`data-background-gradient`)
+  - gifs, videos
+  - See [reveal.js background](https://revealjs.com/backgrounds/)
+- **For the *important* pink color codes see [this link](https://html-color.codes/pink).**
+
 -----
 
 # Markdown Showcase
@@ -80,8 +93,8 @@ This text is not visible in presentation mode!
   - tables
   - links and images
   - **bold** *italic* ~~striketrough~~
-  - See for example [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-  - ...and below
+- See for example [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- ...and some examples below
 
 ---
 
