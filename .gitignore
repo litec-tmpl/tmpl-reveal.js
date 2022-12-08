@@ -1,3 +1,6 @@
+# .env file alsways good to ignor that one...
+.env
+
 # Logs
 logs
 *.log
