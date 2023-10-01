@@ -145,4 +145,4 @@ public class foo {
 
 ### Local
 
-![LiTec-Logo](./img/LiTec-Logo.jpg)
+![LiTec-Logo](./assets/LiTec-Logo.jpg)
