@@ -2,7 +2,7 @@
 
 A template to generate [reveal.js](https://revealjs.com/) markdown presentation repositories with reaveal.js as submodule.
 
-This template uses reveal.js version 4.6 (see [reveal.js (github)](https://github.com/hakimel/reveal.js) for latest reveal.js tag).
+This template uses reveal.js version 4.4.0 (see [reveal.js (github)](https://github.com/hakimel/reveal.js) for latest reveal.js tag).
 See [how to host reveal.js on github-pages](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d) on how to update to a newer version.
 
 ## Demo
@@ -13,13 +13,14 @@ Have a look at the demo github pages of this template repo: <https://litec-lectu
 
 1. Create a new github repo which uses this template.
    - start with a public repo and change this to a private after complete setup
-3. Activate github pages within this repository (see `Settings -> Pages`) - most of the time using the main branch is ok.
-4. If you clone the repo locally:
+2. Activate github pages within this repository (see `Settings -> Pages`) - most of the time using the main branch is ok.
+3. If you clone the repo locally:
    1. Get the submodule files with `git submodule update --init --recursive`.
    2. Checkout the latest reveal.js commit from master with `git submodule update --remote`.
    3. For testing purposes run a local server - for example with `vscode` and `live server` plugin.
-5. Add own markdown files (sadly without yaml header!) and adapt `index.html` accordingly.
-6. Upload (commit/push) changes to github.
+4. Add own markdown files (sadly without yaml header!) and adapt `index.html` accordingly.
+5. Upload (commit/push) changes to github.
+6. Have a look at [`index.html`](./index.html) and fix the `@TODO`'s.
 
 For a detailed explanation see [pachanero-revealjs-template](https://github.com/pacharanero/create-new-revealjs-template).
 

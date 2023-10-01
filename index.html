@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <!-- @todo CHANGE TITLE -->
+    <!-- @TODO - CHANGE TITLE -->
     <title>reveal.js with markdown</title>
     
     <!-- @todo (optional) Change favicon -->
@@ -16,13 +16,24 @@
     <link rel="stylesheet" href="reveal.js/dist/reset.css" />
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
 
-    <!-- @todo (optional) Change theme - see https://revealjs.com/themes/ -->
+    <!-- @todo (optional) Change theme 
+         - see https://revealjs.com/themes/ or look at the local css-files 
+         - BEWARE! check styles below if you use bright themes (especially --r-main-color)  -->
     <link rel="stylesheet" href="reveal.js/dist/theme/moon.css" id="theme" />
 
     <!-- @todo (optional) Change syntax highlighting for code -->
     <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme" />
 
+    <!-- Extra styling that overrides chosen theme
+         BEWARE! --r-main-color and code{...} are only good for dark themes! -->
     <style>
+      :root { --r-main-color: #d1d8d9; }
+      code {
+        background-color: rgba(0,0,0,0.3); 
+        border-radius: 0.25em; 
+        padding-left: 0.2em; 
+        padding-right: 0.2em;
+      }
       .reveal { font-size: 24px; }
       section>ul>li:last-of-type { margin-bottom: 32px; }
       section>ul>li { margin-top: 8px; }  
@@ -34,7 +45,7 @@
     <div class="reveal">
       <div class="slides">
         
-        <!-- @todo CHANGE START SLIDE CONTENT -->
+        <!-- @TODO - CHANGE START SLIDE CONTENT -->
         <section data-background-image="./assets/litec-logo-white-100px.svg"
                  data-background-size="3%"
                  data-background-position="right 3% top 3%"
@@ -78,6 +89,10 @@
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealMath],
+
+        markdown: {
+          gfm: true
+        },
       });
     </script>
   </body>
