@@ -2,7 +2,7 @@
 
 A template to generate [reveal.js](https://revealjs.com/) markdown presentation repositories with reaveal.js as submodule.
 
-This template uses reveal.js version 4.4.0 (see [reveal.js (github)](https://github.com/hakimel/reveal.js) for latest reveal.js tag).
+This template uses reveal.js version 4.6 (see [reveal.js (github)](https://github.com/hakimel/reveal.js) for latest reveal.js tag).
 See [how to host reveal.js on github-pages](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d) on how to update to a newer version.
 
 ## Demo
