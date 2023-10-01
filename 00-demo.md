@@ -20,7 +20,7 @@
 
 -----
 
-# Reaveal.js<br> Basic Usage & Showcase
+# Reveal.js<br>Basic Usage & Showcase
 
 ## Shortcuts
 
@@ -37,14 +37,14 @@
 ### Horizontal Transition
 
 - Either create a new section in your `index.html`,
-- or seperate your slides in your markdown document by
+- or separate your slides in your markdown document by
   - adding a newline and  
   - `-----` (5x)
   - and a newline
 
 ### Vertical Transition
 
-- seperate you slides in your markdown dokument by
+- separate you slides in your markdown document by
   - adding a newline and  
   - `---` (3x)
   - and a newline
@@ -55,7 +55,7 @@
 
 - Use Arrow keys to see step by step fragments.
 - HTML-comments are used for that: `<!-- .element: class="fragment" -->` <!-- .element: class="fragment" data-fragment-index="1" -->
-- However, markdown file itself doesnt look that great. <!-- .element: class="fragment" data-fragment-index="3" -->
+- However, markdown file itself doesn't look that great. <!-- .element: class="fragment" data-fragment-index="3" -->
 - Strange ordering is possible... <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
@@ -73,13 +73,14 @@ This text is not visible in presentation mode!
 ---
 
 <!-- .slide: data-background-gradient="linear-gradient(to bottom, #ff1493, #ffb6c1)" data-transition="zoom" -->
-# PINK BACKGROUND WITH ZOOM IN! WHOO!
+
+# PINK BACKGROUND WITH ZOOM IN! WOW!
 
 - For slide transitions (like zoom here) see [reveal.js transition](https://revealjs.com/transitions/).
 - Different Backgrounds are possible
   - single colors (`data-background`)
   - gradients (shown here) (`data-background-gradient`)
-  - gifs, videos
+  - gif, video
   - See [reveal.js background](https://revealjs.com/backgrounds/)
 - **For the *important* pink color codes see [this link](https://html-color.codes/pink).**
 
@@ -87,12 +88,12 @@ This text is not visible in presentation mode!
 
 # Markdown Showcase
 
-- Code Higlighting
+- Code Highlighting
 - Classic markdown stuff, like
   - lists
   - tables
   - links and images
-  - **bold** *italic* ~~striketrough~~
+  - **bold** *italic* ~~strike-through~~
 - See for example [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - ...and some examples below
 
