@@ -1,3 +1,8 @@
+---
+author: hasp
+date: 20240929
+---
+
 > [!NOTE]
 > Consider to use the [reveal-md template](https://github.com/litec-tmpl/tmpl-reveal-md) if you are not going to setup presentations with github pages.
 
