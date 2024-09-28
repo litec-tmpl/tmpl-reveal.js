@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consider to use the [reveal-md template](https://github.com/litec-tmpl/tmpl-reveal-md) if you are not going to setup presentations with github pages.
+
 # reveal.js-template
 
 A template to generate [reveal.js](https://revealjs.com/) markdown presentation repositories with reveal.js as submodule.
